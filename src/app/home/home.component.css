@@ -1,12 +1,7 @@
-<<<<<<< HEAD
-* {
-    margin: 0;
-=======
 .principal {
     width: 100%;
     height: auto;
     /* border: 1px solid black; */
->>>>>>> 8e92f75cb410aad6e838f5d5eec1b7e4b6ddb0ec
 }
 
 #logo {
@@ -15,9 +10,6 @@
     margin: auto;
     background-image: url(../../assets/logo.jpeg);
     background-repeat: no-repeat;
-<<<<<<< HEAD
-}
-=======
     /* border: 1px solid black; */
 }
 
@@ -70,4 +62,3 @@
     font-size: 10px;
 
 } */
->>>>>>> 8e92f75cb410aad6e838f5d5eec1b7e4b6ddb0ec
