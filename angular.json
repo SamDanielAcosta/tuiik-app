@@ -24,7 +24,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "tuiik"
+    }
+  },
+  "defaultProject": "tuiik",
+  "cli": {
+    "analytics": "24a0dd27-8901-42c9-aa17-f19053bd74f4"
+  }
 }
