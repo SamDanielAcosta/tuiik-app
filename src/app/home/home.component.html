@@ -22,6 +22,7 @@
           <li ><a href="#">ALMACENAMIENTO</a><img src="../../assets/img1.JPG" class="image" ><p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ut quasi, earum perspiciatist!</p></li>
           <li ><a href="#">SEGURIDAD</a><img src="../../assets/img1.JPG" class="image" ><p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ut quasi, earum perspiciatist!</p></li>
           <li ><a href="#">ACCESORIOS</a><img src="../../assets/img1.JPG" class="image" ><p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ut quasi, earum perspiciatist!</p></li>
+          <li ><a href="#">ACCESORIOS</a><img src="../../assets/img1.JPG" class="image" ><p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ut quasi, earum perspiciatist!</p></li>
         </ul>
       </li>
       <li class="nav-item">
@@ -31,6 +32,7 @@
           <li><a href="#">TELEFONOS</a><img src="../../assets/img1.JPG" class="image" ><p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ut quasi, earum perspiciatist!</p></li>
           <li><a href="#">CAMARAS</a><img src="../../assets/img1.JPG" class="image" ><p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ut quasi, earum perspiciatist!</p></li>
           <li><a href="#">AUDIO VIDEO</a><img src="../../assets/img1.JPG" class="image" ><p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ut quasi, earum perspiciatist!</p></li>
+          <li><a href="#">OTROS</a><img src="../../assets/img1.JPG" class="image" ><p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ut quasi, earum perspiciatist!</p></li>
           <li><a href="#">OTROS</a><img src="../../assets/img1.JPG" class="image" ><p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ut quasi, earum perspiciatist!</p></li>
         </ul>
       </li>
@@ -54,6 +56,21 @@
   </div>
 </nav>
 
+<div class="col-lg-12 carouselContet  wow fadeInLeft">
+  <owl-carousel-o [options]="customOptions " class=" ">
+      <ng-container *ngFor="let dataOps of data">
+          <ng-template carouselSlide>
+              <div class="p-2 wow fadeIn ">
+                  <div class="carouselItem box relative ">
+                      <div class="contentCarrousel">
+                        <img width="100% " src="assets/carouselHome/{{dataOps.imgCarousel}}.png" alt=" ">
+                      </div>
+                  </div>
+              </div>
+          </ng-template>
+      </ng-container>
+  </owl-carousel-o>
+</div>
 
 
 
