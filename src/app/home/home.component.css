@@ -117,7 +117,7 @@
 .secondBanner {
     width: 100%;
     height: 470px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .firstHead {
@@ -161,4 +161,103 @@
     background-color: #F6F6F6;
     height: 70px;
     border: 2px solid white;
+}
+
+.catalog {
+    height: 100px;
+    background-color: #F6F6F6;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 30px;
+}
+
+.imgs {
+    width: 100%;
+    height: 340px;
+    background-color: #F6F6F6;
+    border: 2px solid white;
+}
+
+.cata1 {
+    background-image: url(../../assets/img4.jpg);
+    height: 300px;
+    width: 300px;
+    float: left;
+    background-size: cover;
+    margin: 39px;
+}
+
+.cata1 div {
+    background-color: black;
+    opacity: 0.1;
+    width: 280px;
+    height: 280px;
+    margin: auto;
+    margin-top: 10px;
+    border: 3px solid white;
+}
+
+.cata1 div:hover {
+    background-image: url(../../assets/img4.jpg);
+    background-size: auto;
+    size: 90px;
+    opacity: 1;
+}
+
+.difuminado {
+    size: 100px;
+    color: solid black;
+    text-align: center;
+}
+
+.encabezado2 {
+    height: 100px;
+    background-color: #41B5E0;
+    border: 2px solid white;
+    border-radius: 12px;
+    float: right;
+}
+
+.segundaCabecera {
+    width: 75%;
+    background-color: #f6f6f6;
+    height: 70px;
+    float: left;
+    border: 2px solid white;
+}
+
+.firstRight {
+    width: 25%;
+    height: 370px;
+    border: 2px solid white;
+    background-color: gray;
+    float: right;
+}
+
+.onlyImg {
+    width: 100%;
+    height: 625px;
+    background-image: url(../../assets/img8.jpeg);
+}
+
+.informacion {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    opacity: 0.2;
+    text-align: center;
+    top: 200px;
+    position: relative;
+    padding-top: 30px;
+}
+
+.informacion:hover {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    opacity: 1;
+    text-align: center;
+    top: 200px;
+    position: relative;
+    padding-top: 30px;
 }
