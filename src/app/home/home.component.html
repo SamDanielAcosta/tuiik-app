@@ -1,144 +1,89 @@
-<div class="principal">
-    <div id="logo"></div>
-    <div class="row">
-        <div>
-            <p class="pl-5">COL</p>
+<div class="container pricipal">
+    <div class="presentacion col-12 col-sm-12 col-md-12">
+        <div class="firstLine ">
+            <div class="logo"></div>
         </div>
-        <div class="logo">
-            <p class="pl-5">Pesos colombianos</p>
+        <div class="slogan col-12 col-sm-12 col-md-12">
+            <p>Las Mejores marcas en Tuiik </p>
         </div>
-        <div class="slogan">
-            <p>Las mejores marcas en <b>tu</b>ii<b>k</b></p>
-        </div>
-        <div class="car">
-            <div id="buyCar"></div>
+        <div class="row secondLine ">
+            <div class="country col-xs-12 col-sm-12 col-md-2">
+                <p class="">COL</p>
+            </div>
+            <div class="moneda col-xs-12 col-sm-12 col-md-2">
+                <p>Peso Colombiano</p>
+            </div>
+
+            <div class="imge col-xs-12 col-sm-12 col-md-8">
+                <div class="buyShop "></div>
+            </div>
         </div>
     </div>
-</div>
+    <!-- ESPACIO RESERVADO PARA EL MENU DESPLEGABLE -->
 
 
 
-<nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-    <div class="collapse navbar-collapse ">
-        <ul class="navbar-nav mr-auto Menuas ">
-            <li class="nav-item active">
-                <a class="nav-link TxtPrinci" href="#">HOME<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item ">
-                <a class="nav-link TxtPrinci" href="#">CATEGORIAS</a>
-                <ul class="Menu1">
-                    <li><a href="#">COMPUTACION</a><img src="../../assets/img1.JPG" class="image">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ut quasi, earum perspiciatist!</p>
-                    </li>
-                    <li><a href="#">REDES</a><img src="../../assets/img1.JPG" class="image">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ut quasi, earum perspiciatist!</p>
-                    </li>
-                    <li><a href="#">ALMACENAMIENTO</a><img src="../../assets/img1.JPG" class="image">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ut quasi, earum perspiciatist!</p>
-                    </li>
-                    <li><a href="#">SEGURIDAD</a><img src="../../assets/img1.JPG" class="image">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ut quasi, earum perspiciatist!</p>
-                    </li>
-                    <li><a href="#">ACCESORIOS</a><img src="../../assets/img1.JPG" class="image">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ut quasi, earum perspiciatist!</p>
-                    </li>
-                    <li><a href="#">ACCESORIOS</a><img src="../../assets/img1.JPG" class="image">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ut quasi, earum perspiciatist!</p>
-                    </li>
-                </ul>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link TxtPrinci " href="#">TIENDA</a>
-                <ul class="Menu1">
-                    <li><a href="#">ELECTRODOMESTICOS</a><img src="../../assets/img1.JPG" class="image">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ut quasi, earum perspiciatist!</p>
-                    </li>
-                    <li><a href="#">TELEFONOS</a><img src="../../assets/img1.JPG" class="image">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ut quasi, earum perspiciatist!</p>
-                    </li>
-                    <li><a href="#">CAMARAS</a><img src="../../assets/img1.JPG" class="image">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ut quasi, earum perspiciatist!</p>
-                    </li>
-                    <li><a href="#">AUDIO VIDEO</a><img src="../../assets/img1.JPG" class="image">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ut quasi, earum perspiciatist!</p>
-                    </li>
-                    <li><a href="#">OTROS</a><img src="../../assets/img1.JPG" class="image">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ut quasi, earum perspiciatist!</p>
-                    </li>
-                    <li><a href="#">OTROS</a><img src="../../assets/img1.JPG" class="image">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ut quasi, earum perspiciatist!</p>
-                    </li>
-                </ul>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link TxtPrinci " href="#">BLOG</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link TxtPrinci " href="#">SOBRE NOSOTROS</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link  TxtPrinci" href="#">CONTACTO</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link TxtPrinci" href="#">LISTA DE DESEOS</a>
-            </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0 TxtPrinci" type="submit">Search</button>
-        </form>
-    </div>
-</nav>
+    <!-- ESPACIO RESERVADO PARA EL PRIMER CARROUSEL -->
+    <div class="col-lg-12 carouselContet  wow fadeInLeft">
+        <owl-carousel-o [options]="customOptions " class=" ">
+            <ng-container *ngFor="let dataOps of data">
+                <ng-template carouselSlide>
 
-<div class="col-lg-12 carouselContet  wow fadeInLeft">
-    <owl-carousel-o [options]="customOptions " class=" ">
-        <ng-container *ngFor="let dataOps of data">
-            <ng-template carouselSlide>
-                <div class="p-2 wow fadeIn ">
-                    <div class="carouselItem box relative ">
-                        <div class="contentCarrousel">
-                            <img width="100% " src="assets/carouselHome/{{dataOps.imgCarousel}}.png" alt=" ">
+                    <div class="p-2 wow fadeIn ">
+                        <div class="carouselItem box relative ">
+                            <div class="contentCarrousel">
+                                <img width="100%" style="height: 450px;" src="assets/carouselHome/{{dataOps.imgCarousel}}.png" alt=" ">
+                            </div>
                         </div>
                     </div>
+                </ng-template>
+            </ng-container>
+        </owl-carousel-o>
+    </div>
+
+    <!-- Carrusel Segundo Items  -->
+
+    <div class="col-lg-6 carouselContet  wow fadeInLeft">
+        <owl-carousel-o [options]="customOptions1 " class=" ">
+            <ng-container *ngFor="let dataOps of data">
+                <ng-template carouselSlide>
+
+                    <div class="p-2 wow fadeIn ">
+                        <div class="carouselItem box relative ">
+                            <div class="contentCarrousel">
+                                <img width="100%" style="" src="assets/carouselHome/{{dataOps.imgCarousel}}.png" alt=" ">
+                            </div>
+                        </div>
+                    </div>
+                </ng-template>
+            </ng-container>
+        </owl-carousel-o>
+    </div>
+
+    <!-- ESPACIO PARA PRIMER BANNER -->
+    <div class="row bannerPublicidad ">
+
+        <div class="pr-0 col-xs-12 col-sm-12 col-md-12 ">
+            <div class="rectangulo  col-xs-12 col-sm-12 col-md-12">
+                <div class="rectanguloPublicity text-center">
+                    <h3 class="pt-2">LOREM IPSUM</h3>
+                    <p class="">lorem lorem lorem
+                    </p>
                 </div>
-            </ng-template>
-        </ng-container>
-    </owl-carousel-o>
+                <div class="rectanguloPublicidad"></div>
+            </div>
+            <div class="rectangulo  col-xs-12 col-sm-12 col-md-12">
+                <div class="rectanguloPublicity text-center">
+                    <h3 class="pt-2">LOREM IPSUM</h3>
+                    <p class="">lorem lorem lorem
+                    </p>
+                </div>
+                <div class="rectanguloPublicidad"></div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="circle"></div>
+        </div>
 
-
-
-
+    </div>
 </div>
-
-
-<section class="publicidad">
-    <div class="largBox1">
-        <div class="publicidad1">
-            <div class="contPublicidad">
-
-                <p><b>LOREM IPSUM</b><br>lorem lorem lorem <br> <button type="button" class="btn btn-primary mt-3">Shop Now</button></p>
-            </div>
-        </div>
-        <div class="publicidad2">
-            <div class="contPublicidad">
-                <p><b>LOREM IPSUM</b><br>lorem lorem lorem</p>
-            </div>
-        </div>
-    </div>
-    <div class="shortBox">
-        <div class="publicidad3">
-            <div class="contPublicidad">
-                <p><b>LOREM IPSUM</b><br>lorem lorem lorem</p>
-            </div>
-        </div>
-        <div class="publicidad4">
-            <div class="contPublicidad">
-                <p><b>LOREM IPSUM</b><br>lorem lorem lorem</p>
-            </div>
-        </div>
-    </div>
-</section>

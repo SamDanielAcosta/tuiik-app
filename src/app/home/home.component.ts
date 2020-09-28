@@ -11,6 +11,7 @@ export class HomeComponent implements OnInit {
 
   data = [];
   customOptions = {};
+  customOptions1 = {};
 
   constructor() { }
 
@@ -33,6 +34,33 @@ export class HomeComponent implements OnInit {
           items: 1
         },
         400: {
+          items: 1
+        },
+        740: {
+          items: 1
+        },
+      },
+      nav: true
+    };
+    this.cargarData();
+    this.customOptions1 = {
+      loop: true,
+      center: true,
+      mouseDrag: true,
+      touchDrag: true,
+      pullDrag: true,
+      dots: true,
+      navSpeed: 1500,
+      autoplay: false,
+      autoplayHoverPause: true,
+      autoplaySpeed: 1500,
+      dotsSpeed: 1500,
+      navText: ['', ''],
+      responsive: {
+        0: {
+          items: 2
+        },
+        400: {
           items: 3
         },
         740: {
@@ -43,6 +71,12 @@ export class HomeComponent implements OnInit {
     };
     this.cargarData();
   }
+
+
+
+
+
+  // tslint:disable-next-line: typedef
   cargarData() {
     this.data = [
       {
